@@ -1,0 +1,103 @@
+/* Giving the whole website a templete theme */
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+/* Giving h1, and h2 elements red color and round borders */
+h1, h2 {
+    background-color: rgb(175, 98, 98);
+    color: white;
+    border: .2em double rgb(207, 94, 94);
+    padding: 10px;
+    border-radius: .8em;
+    text-align: center;
+}
+
+p {
+    color: black;
+    padding: 1%;
+}
+
+/* Giving the background for the navigation bar background color and padding */
+nav {
+    padding: 0.6%;
+    background-color: rgb(186, 232, 247);
+    color: white;;
+}
+
+/* Giving padding and extra style to the links to make them button-like */
+nav > a {
+    padding: 0.7%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: rgb(175, 98, 98);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Change the background color when the user hovers the buttons */
+nav > a:hover {
+    background-color: rgb(105, 70, 70);
+}
+
+/* Giving the footer the red background for the logo */
+footer {
+    background-color: rgb(175, 98, 98);
+    padding: 1%;
+}
+
+/* Giving the footer texts readable color */
+footer > p {
+    color: rgb(255, 255, 255);
+}
+
+/* Slightly centering the game list */
+.game-list {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* Giving borders to every div element inside the game-list class */
+.game-list > div {
+    border: .2em solid black;
+    margin: 4%;
+    padding: 6px
+}
+
+/* Give bottom padding */
+.phantom-memories > div {
+    padding-bottom: 15px;
+}
+
+/* Give bottom padding */
+.pog-obby > div {
+    padding-bottom: 15px;
+}
+
+/* Styling the about text */
+.about {
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* Giving the about page a background image */
+.about-page {
+    background-image: url(../images/Logo\ Pog\ Productions\ Resize.jpg)
+}
+
+/* Giving the p elements highlights */
+.about > p {
+    background-color: white;
+}
+
+/* Scale images */
+footer > a > img {
+    height: 100px;
+    width: 100px;
+    margin: 1%;
+}

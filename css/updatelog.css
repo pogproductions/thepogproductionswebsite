@@ -1,0 +1,43 @@
+/* Giving the whole website a templete theme */
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+/* Styling the header for every update log page */
+header > h1 {
+    border: .1em solid black;
+    padding: 6px;
+    text-align: center;
+}
+
+/* Styling the update notes to a rule of third idea */
+body > div {
+    padding-left: 5%;
+    padding-right: 5%;
+    border-left: .2em solid black;
+    border-left-style: dashed;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+}
+
+/* Giving the footer the red background for the logo */
+footer {
+    background-color: rgb(175, 98, 98);
+    padding: 1%;
+}
+
+/* Giving the footer texts readable color */
+footer > p {
+    color: rgb(255, 255, 255);
+    padding: 1%;
+}
+
+/* Scale images */
+footer > a > img {
+    height: 100px;
+    width: 100px;
+    margin: 1%;
+}

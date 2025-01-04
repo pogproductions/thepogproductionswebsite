@@ -1,0 +1,34 @@
+
+/* Main container to allow flex layout */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+/* Grow content to push footer down */
+.game-list {
+    flex: 1;
+}
+
+.Update-04 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.update-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
